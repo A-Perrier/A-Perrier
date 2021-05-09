@@ -53,7 +53,7 @@ class AboutMe extends Introduction
 
   public static function paramountGoal()
   {
-    return "I want to create a website based on the ''Book where you're the hero'' concept, as author and developer";
+    return "I want to create a website based on the 'Book where you\'re the hero' concept, as author and developer";
   }
 
   public function getHobbies()
