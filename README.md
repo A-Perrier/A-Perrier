@@ -80,9 +80,9 @@ class AboutMe extends Introduction
 
 
 ## Some stats (everybody like stats) ...
-![Such Impressive Stats, Wow](https://github-readme-stats.vercel.app/api?username=A-Perrier&hide=contribs,prs,stars,issues&count_private=true&show_icons=true&theme=merko&custom_title=Such%20Impressive%20Stats,%20Wow)
+![Such Impressive Stats, Wow](https://github-readme-stats.vercel.app/api?username=A-Perrier&hide=prs,stars&count_private=true&show_icons=true&theme=merko&custom_title=Such%20Impressive%20Stats,%20Wow)
 
-![My Best Friends](https://github-readme-stats.vercel.app/api/top-langs/?username=A-Perrier&layout=compact&theme=merko&custom_title=My%20Best%20Friends)
+![Me and the boys](https://github-readme-stats.vercel.app/api/top-langs/?username=A-Perrier&layout=compact&theme=merko&custom_title=Me%20and%20the%20boys)
 
 
 ## Finally ...
