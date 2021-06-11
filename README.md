@@ -35,7 +35,8 @@ class AboutMe extends Introduction
   {
     return [
       "E-Shop" => "https://github.com/A-Perrier/ningen_shoppu",
-      "Project Management" => "https://github.com/A-Perrier/goalmatcher"
+      "Project Management" => "https://github.com/A-Perrier/goalmatcher",
+      "Agenda" => "https://github.com/A-Perrier/agenda"
     ];
   }
 
