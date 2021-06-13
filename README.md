@@ -10,7 +10,7 @@ I'm a self taught french web developer.
 <?php
 namespace AnthonyPerrier;
 
-class AboutMe extends Introduction
+class Introduction extends AboutMe
 {
   private const TEA_REMAINING = true;
 
