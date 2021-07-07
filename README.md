@@ -24,6 +24,7 @@ class Introduction extends AboutMe
       JavaScript::class,
       JQuery::class,
       React::class,
+      ReactNative::class,
       ApiPlatform::class,
       Sass::class,
       SQL::class,
@@ -43,7 +44,8 @@ class Introduction extends AboutMe
   public function getOnlineProjects()
   {
     return [
-      "https://www.aurapapillon.fr"
+      "https://www.aurapapillon.fr",
+      "http://haikusan.fr"
     ];
   }
 
