@@ -44,7 +44,7 @@ class Introduction extends AboutMe
   public function getOnlineProjects()
   {
     return [
-      "https://www.aurapapillon.fr",
+      "http://www.aurapapillon.fr",
       "http://haikusan.fr"
     ];
   }
