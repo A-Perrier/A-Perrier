@@ -28,7 +28,8 @@ class Introduction extends AboutMe
       ApiPlatform::class,
       Sass::class,
       SQL::class,
-      Figma::class
+      Figma::class,
+      AdobeXD::class
     ];
   }
 
