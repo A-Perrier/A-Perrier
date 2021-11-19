@@ -47,7 +47,7 @@ class Introduction extends AboutMe
     return [
       "https://www.aurapapillon.fr",
       "https://haikusan.fr",
-      "http://jerome-segal.eu
+      "https://jerome-segal.eu
     ];
   }
 
