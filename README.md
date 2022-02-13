@@ -37,24 +37,30 @@ class Introduction extends AboutMe
   public function getRecommandedProjects()
   {
     return [
-      "reactsimplesurvey" => [
-                              "stack"       => "React",
-                              "released_at  => "February 2022",
-                              "url"         => "https://github.com/A-Perrier/reactsimplesurvey",
-                              "description" => "An easy-to-use survey builder and renderer in React"
-                             ],
-      "goalmatcher"       => [
-                              "stack"       => ["Symfony", "React"],
-                              "released_at  => "August 2021",
-                              "url"         => "https://github.com/A-Perrier/goalmatcher",
-                              "description" => "A project management tool such as Trello or Clickup --- WIP ---"
-                             ],
-      "agenda"            => [
-                              "stack"       => "React",
-                              "released_at  => "July 2021",
-                              "url"         => "https://github.com/A-Perrier/agenda",
-                              "description" => "A tool created from scratch allowing to access a calendar and save events by date and time"
-                             ],
+      "reactsimplesurvey"  => [
+                               "stack"       => "React",
+                               "released_at  => "February 2022",
+                               "url"         => "https://github.com/A-Perrier/reactsimplesurvey",
+                               "description" => "An easy-to-use survey builder and renderer in React"
+                              ],
+      "goalmatcher"        => [
+                               "stack"       => ["Symfony", "React"],
+                               "released_at  => "August 2021",
+                               "url"         => "https://github.com/A-Perrier/goalmatcher",
+                               "description" => "A project management tool such as Trello or Clickup --- WIP ---"
+                              ],
+      "agenda"             => [
+                               "stack"       => "React",
+                               "released_at  => "July 2021",
+                               "url"         => "https://github.com/A-Perrier/agenda",
+                               "description" => "A tool created from scratch allowing to access a calendar and save events by date and time"
+                              ],
+      "Dungeon of Fitness" => [
+                               "stack"       => "React Native",
+                               "released_at  => "July 2021",
+                               "url"         => "https://github.com/A-Perrier/DoF-Game-Simulator",
+                               "description" => "A one shot project which is a simulator of the card game Dungeon of Fitness that I made because the Kickstarter shipping made my                                                  waiting a bit too long for my taste (:"
+                              ],                      
     ];
   }
 
