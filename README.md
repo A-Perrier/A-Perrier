@@ -1,4 +1,4 @@
-# Hello ! 🙏🏻 I'm Anthony Perrier ! 👋
+# Hello, I'm Anthony Perrier !
 
 Welcome on my Github.
 I'm a self taught french web developer.
@@ -21,10 +21,11 @@ class Introduction extends AboutMe
     return [
       PHP::class,
       Symfony::class,
+      WordPress::class,
       JavaScript::class,
-      JQuery::class,
       React::class,
       ReactNative::class,
+      Vuejs::class,
       ApiPlatform::class,
       Sass::class,
       SQL::class,
@@ -33,27 +34,52 @@ class Introduction extends AboutMe
     ];
   }
 
-  public function getPublicProjects()
+  public function getRecommandedProjects()
   {
     return [
-      "E-Shop" => "https://github.com/A-Perrier/ningen_shoppu",
-      "Project Management" => "https://github.com/A-Perrier/goalmatcher",
-      "Agenda" => "https://github.com/A-Perrier/agenda"
+      "reactsimplesurvey" => [
+                              "stack"       => "React",
+                              "released_at  => "February 2022",
+                              "url"         => "https://github.com/A-Perrier/reactsimplesurvey",
+                              "description" => "An easy-to-use survey builder and renderer in React"
+                             ],
+      "goalmatcher"       => [
+                              "stack"       => ["Symfony", "React"],
+                              "released_at  => "August 2021",
+                              "url"         => "https://github.com/A-Perrier/goalmatcher",
+                              "description" => "A project management tool such as Trello or Clickup --- WIP ---"
+                             ],
+      "agenda"            => [
+                              "stack"       => "React",
+                              "released_at  => "July 2021",
+                              "url"         => "https://github.com/A-Perrier/agenda",
+                              "description" => "A tool created from scratch allowing to access a calendar and save events by date and time"
+                             ],
     ];
   }
 
   public function getOnlineProjects()
   {
     return [
-      "https://www.aurapapillon.fr",
-      "https://haikusan.fr",
-      "https://jerome-segal.eu
+      "laura-julien.fr" => [
+                              "stack"       => ["Symfony", "React"],
+                              "released_at  => "January 2022",
+                              "url"         => "https://laura-julien.fr",
+                              "description" => "A multi-service website where you'll find a shop based on PayPal API, a care reservation system and a blog"
+                           ],
+      "jerome-segal.eu" => [
+                              "stack"       => ["Symfony", "React"],
+                              "released_at  => "October 2021",
+                              "url"         => "https://jerome-segal.eu",
+                              "description" => "A trilingual platform made to map all speeches, public appearances and books from a franco-austrian speaker and researcher"
+                           ],
+      "haikusan.fr"     => [
+                              "stack"       => ["Symfony", "Vanilla JS"],
+                              "released_at  => "April 2021",
+                              "url"         => "https://haikusan.fr",
+                              "description" => "My personal collection of haiku, a japanese style poetry based on the contemplation of the present moment"
+                             ]
     ];
-  }
-
-  public function getCurrentProject()
-  {
-    return "I'm working on Goalmatcher, a project management platform. Check the repository !";
   }
 
   public static function paramountGoal()
@@ -92,7 +118,7 @@ class Introduction extends AboutMe
 
 ## Finally ...
 **Thanks for your visit** !  
-*Feel free to contact me* 😁
+*Feel free to contact me !*
 
 <!--
 **A-Perrier/A-Perrier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
