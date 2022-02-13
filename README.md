@@ -59,7 +59,7 @@ class Introduction extends AboutMe
                                "stack"       => "React Native",
                                "released_at  => "July 2021",
                                "url"         => "https://github.com/A-Perrier/DoF-Game-Simulator",
-                               "description" => "A one shot project which is a simulator of the card game Dungeon of Fitness that I made because the Kickstarter shipping made my                                                  waiting a bit too long for my taste (:"
+                               "description" => "A one shot project which is a simulator of the card game Dungeon of Fitness that I made because the Kickstarter shipping made my waiting a bit too long for my taste (:"
                               ],                      
     ];
   }
