@@ -67,24 +67,12 @@ class Introduction extends AboutMe
   public function getOnlineProjects()
   {
     return [
-      "laura-julien.fr" => [
-                              "stack"       => ["Symfony", "React"],
-                              "released_at  => "January 2022",
-                              "url"         => "https://laura-julien.fr",
-                              "description" => "A multi-service website where you'll find a shop based on PayPal API, a care reservation system and a blog"
-                           ],
       "jerome-segal.eu" => [
                               "stack"       => ["Symfony", "React"],
                               "released_at  => "October 2021",
                               "url"         => "https://jerome-segal.eu",
                               "description" => "A trilingual platform made to map all speeches, public appearances and books from a franco-austrian speaker and researcher"
-                           ],
-      "haikusan.fr"     => [
-                              "stack"       => ["Symfony", "Vanilla JS"],
-                              "released_at  => "April 2021",
-                              "url"         => "https://haikusan.fr",
-                              "description" => "My personal collection of haiku, a japanese style poetry based on the contemplation of the present moment"
-                             ]
+                           ]
     ];
   }
 
