@@ -21,13 +21,13 @@ class Introduction extends AboutMe
     return [
       PHP::class,
       Symfony::class,
-      WordPress::class,
       JavaScript::class,
+      TypeScript::class
       React::class,
+      Docker::class
       ReactNative::class,
       Vuejs::class,
       ApiPlatform::class,
-      Sass::class,
       SQL::class,
       Figma::class,
       AdobeXD::class
