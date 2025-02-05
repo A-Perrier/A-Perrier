@@ -1,7 +1,7 @@
 # Hello, I'm Anthony Perrier !
 
 Welcome on my Github.
-I'm a self taught french web developer, currently hired at Artesa, Aix-en-Provence and specialized in Symfony development and a React enthusiast.
+I'm a self taught french web developer specialized in Symfony development and a React enthusiast.
 See more on [Notion](https://bold-twig-69c.notion.site/Anthony-Perrier-Projets-et-inspirations-aca7d926f5424368a07c2f715dc7d5bf) and [personal website](https://anthony-perrier.fr/) (both only available in French).
 
 
